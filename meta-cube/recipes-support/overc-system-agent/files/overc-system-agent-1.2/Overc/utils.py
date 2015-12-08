@@ -3,6 +3,7 @@ import subprocess
 import select
 
 ROOTMOUNT = "/essential"
+HOSTPID = "/host/proc/1"
 
 class Utils(object):
     def __init__(self):
